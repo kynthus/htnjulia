@@ -17,6 +17,4 @@ jobs:
     steps:
       - uses: actions/checkout@v1.0.0
       - uses: julia-actions/setup-julia@v1
-        with:
-          version: latest
       - run: julia -e 'println("Hello, World!")'
